@@ -1,0 +1,85 @@
+.section__position {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 120px;
+
+    .container {
+        background-color: var(--branco);
+        height: 320px;
+        width: 80%;
+        border-radius: 32px;
+
+        .card__position {
+            height: 100%;
+            margin: 0 20%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+
+            .card {
+                height: 144px;
+                width: 144px;
+                background-color: aqua;
+                position: absolute;
+                border-radius: 16px;
+                top: 24px;
+            }
+
+            .card_um {
+                background-color: #DDA0DD;
+            }
+
+            .card_dois {
+                background-color: #800080;
+
+            }
+
+            .card_tres {
+                background-color: #33006F;
+            }
+
+            .card_quatro {
+                background-color: #720E9E;
+
+            }
+
+        }
+    }
+}
+
+.sticky {
+    background-color: var(--branco);
+    padding: 20px 0;
+    text-align: center;
+    border: 1px solid var(--cinza-claro);
+    border-radius: 32px;
+    box-shadow: -6px 9px 19px 0px rgba(195, 191, 191, 0.75);
+    position: sticky;
+    bottom: 4px;
+    width: 100%;
+    z-index: 0;
+}
+
+.section__model {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    .card__model {
+        background-color: var(--branco);
+        width: 80%;
+        border-radius: 32px;
+        display: flex;
+        justify-content: center;
+        height: 60vw;
+        .model {
+            height: 100%;
+            width: 80%;
+            
+        }
+    }
+}

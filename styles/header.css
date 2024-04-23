@@ -1,0 +1,14 @@
+.header__fixo {
+    background-color: var(--branco);
+    padding: 20px 0;
+    text-align: center;
+    border: 1px solid var(--cinza-claro);
+    border-radius: 32px;
+    box-shadow: -6px 9px 19px 0px rgba(195, 191, 191, 0.75);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+
+

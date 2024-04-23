@@ -1,0 +1,25 @@
+@import url('/styles/reset.css');
+@import url('/styles/header.css');
+@import url('/styles/position.css');
+
+:root {
+    --fonte-principal: 'Poppins';
+    --branco: #FFFFFF;
+    --azul: #2D3277;
+    --cinza-claro: #ccc;
+    --gradient: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+body {
+    background: var(--gradient);
+    height: 100vh;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    color: var(--azul);
+    padding-bottom: 1000px;
+}
+
+main {
+    padding-top: 200px;
+}
+
